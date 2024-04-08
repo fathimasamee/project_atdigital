@@ -1,0 +1,92 @@
+.faq-container {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  top:800px;
+  bottom:100px;
+  left:100px;
+}
+
+.faq-heading {
+  font-size: 27px;
+  font-weight: 600;
+  color: #6B3CC9;
+  line-height: 33px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.faq-box-container {
+  display: flex;
+  justify-content: center;
+}
+
+.faq-box {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 846px;
+  width: 100%;
+  margin: 50px auto;
+}
+
+.faq-item {
+  background-color:#FAF8FF;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 10px; /* Reduce space between question and answer */
+}
+
+.faq-question h2 {
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.faq-answer p {
+  font-size: 18px;
+  color: #666;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: justify;
+  margin: 0; /* Remove default margin */
+  display: none; /* Initially hide answers */
+}
+.faq-question.active h2 {
+  color: #6B3CC9; /* Purple color for active question text */
+}
+
+.faq-question .minus {
+  font-size: 24px;
+  color: #666;
+  transition: transform 0.3s ease;
+}
+
+.faq-question .minus.active {
+  color: #6B3CC9; /* Purple color for active minus symbol */
+}
+.faq-answer.active p {
+  display: block; /* Show active answer */
+}
+
+@media (max-width: 768px) {
+  .faq-box {
+      max-width: 80%;
+  }
+
+  .faq-question h2 {
+      font-size: 18px;
+  }
+
+  .faq-answer p {
+      font-size: 16px;
+  }
+}

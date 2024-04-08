@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+    <link rel="stylesheet" href="FAQ.css"> <!-- Link your custom CSS file -->
+</head>
+<body>
+    <div class="faq-container">
+        <div class="faq-box-container">
+            <div class="faq-box">
+                <h3 class="faq-heading">Frequently Asked Questions</h3>
+                <div class="faq-item" onclick="toggleAccordion(0)">
+                    <div class="faq-question">
+                        <h2>Lorem ipsum dolor sit amet consectetur. Leo at sit eu libero?</h2>
+                        <span class="plus">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Lorem ipsum dolor sit amet consectetur. Faucibus commodo suscipit id ipsum. Elementum <br />ultrices nulla faucibus odio est sed aliquam. Sapien massa morbi risus sagittis tortor integer.</p>
+                    </div>
+                </div>
+                <div class="faq-item" onclick="toggleAccordion(1)">
+                    <div class="faq-question">
+                        <h2>Lorem ipsum dolor sit amet consectetur. Tortor scelerisque integer?</h2>
+                        <span class="plus">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Lorem ipsum dolor sit amet consectetur. Faucibus commodo suscipit id ipsum. Elementum <br />ultrices nulla faucibus odio est sed aliquam. Sapien massa morbi risus sagittis tortor integer.</p>
+                    </div>
+                </div>
+                <div class="faq-item" onclick="toggleAccordion(2)">
+                    <div class="faq-question">
+                        <h2>Lorem ipsum dolor sit amet consectetur. Faucibus scelerisque nunc?</h2>
+                        <span class="plus">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Lorem ipsum dolor sit amet consectetur. Faucibus commodo suscipit id ipsum. Elementum <br />ultrices nulla faucibus odio est sed aliquam. Sapien massa morbi risus sagittis tortor integerd.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleAccordion(index) {
+            const faqItems = document.querySelectorAll('.faq-item');
+            faqItems.forEach((item, idx) => {
+                const answer = item.querySelector('.faq-answer');
+                const question = item.querySelector('.faq-question');
+                const plusMinus = item.querySelector('.plus');
+                if (idx === index) {
+                    answer.classList.toggle('active');
+                    question.classList.toggle('active');
+                    plusMinus.textContent = plusMinus.textContent === '+' ? '-' : '+';
+                } else {
+                    answer.classList.remove('active');
+                    question.classList.remove('active');
+                    plusMinus.textContent = '+';
+                }
+            });
+        }
+    </script>
+</body>
+</html>

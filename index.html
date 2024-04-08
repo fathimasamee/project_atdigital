@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="style.css"> 
+  <link rel="stylesheet" href="FAQ.css">
+  <link rel="stylesheet" href="footer.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="logo.png" class="logo-img" alt="Logo"> <!--logo image -->
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Careers</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<div class="hero-section">
+  <div class="hero-image">
+    <!-- Your hero image content goes here -->
+    <img src="andy-kelly-0E_vhMVqL9g-unsplash 2.jpg" alt="Hero Image">
+    
+    <!-- Frame497 inside hero image -->
+    <div class="frame497">
+      <!-- Your frame497 content goes here -->
+      <div class="frame497-content">
+        We crush your competitors, goals, and sales records - without the B.S.
+      </div>
+      <!-- Button inside frame497 -->
+      <button class="frame497-button">
+        <span class="frame497-button-content">Get free consultation</span>
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- Frame498 inside hero image -->
+<div class="frame498">
+  <!-- Image2 inside frame498 -->
+  <div class="image2">
+    <!--  image2 content  -->
+    <img src="image 2.png">
+  </div>
+  <!-- Frame92 inside frame498 -->
+  <div class="frame92">
+    <!-- frame92 content goes -->
+    <div class="frame74">
+      <p class="frame74-content">Web & Mobile App Development</p>
+    </div>
+    <p>Your web and mobile Apps are pieces of the puzzle to grow your business. We use frameworks which tailor content and engagement methods to respond to different intents shown by your potential customers who interact with your business online.</p>
+    <!-- Button in Frame92 -->
+    <button class="frame92-button">
+      <!-- Content of Button in Frame92 -->
+      <span class="frame92-button-content">LEARN MORE</span>
+    </button>
+  </div>
+</div>
+
+ <!-- Frame499 below the existing frame -->
+ <div class="frame499">
+  <!-- Frame92 inside frame499 -->
+  <div class="frame92">
+    <!--  frame92 content goes here -->
+    <p class="frame74-content">Digital Strategy Consulting</p>
+    <p>Your digital strategy should complement the overall marketing strategy of the company. In online marketing, each component will never work in isolation and every business needs a different mix. We provide a clear concept and strategic overview to find the most efficient model for your business</p>
+    <!-- Button in Frame92 -->
+    <button class="frame92-button">
+      <!-- Content of Button in Frame92 -->
+      <span class="frame92-button-content">LEARN MORE</span>
+    </button>
+  </div>
+  <!-- Image2 inside frame499 -->
+  <div class="image3">
+    <!--  image2 content -->
+    <img src="image3.png" alt="Image 3">
+  </div>
+</div>
+
+
+
+
+  </div>
+</div>
+<div class="faq-container">
+  <div class="faq-box-container">
+      <div class="faq-box">
+          <h3 class="faq-heading">Frequently Asked Questions</h3>
+          <div class="faq-item" onclick="toggleAccordion(0)">
+              <div class="faq-question">
+                  <h2>Lorem ipsum dolor sit amet consectetur. Leo at sit eu libero?</h2>
+                  <span class="plus">+</span>
+              </div>
+              <div class="faq-answer">
+                  <p>Lorem ipsum dolor sit amet consectetur. Faucibus commodo suscipit id ipsum. Elementum <br />ultrices nulla faucibus odio est sed aliquam. Sapien massa morbi risus sagittis tortor integer.</p>
+              </div>
+          </div>
+          <div class="faq-item" onclick="toggleAccordion(1)">
+              <div class="faq-question">
+                  <h2>Lorem ipsum dolor sit amet consectetur. Tortor scelerisque integer?</h2>
+                  <span class="plus">+</span>
+              </div>
+              <div class="faq-answer">
+                  <p>Lorem ipsum dolor sit amet consectetur. Faucibus commodo suscipit id ipsum. Elementum <br />ultrices nulla faucibus odio est sed aliquam. Sapien massa morbi risus sagittis tortor integer.</p>
+              </div>
+          </div>
+          <div class="faq-item" onclick="toggleAccordion(2)">
+              <div class="faq-question">
+                  <h2>Lorem ipsum dolor sit amet consectetur. Faucibus scelerisque nunc?</h2>
+                  <span class="plus">+</span>
+              </div>
+              <div class="faq-answer">
+                  <p>Lorem ipsum dolor sit amet consectetur. Faucibus commodo suscipit id ipsum. Elementum <br />ultrices nulla faucibus odio est sed aliquam. Sapien massa morbi risus sagittis tortor integerd.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+      <div class="footer-columns">
+          <div class="footer-column1">
+              <img src="images/logo.png" alt="Logo" class="footer-logo">
+              <p>Your goal is our target. Not anything in between. We use <br />online marketing platforms and tools to achieve single<br /> objective - your business results.</p>
+          </div>
+          <div class="footer-column2">
+              <h3>Our Technologies</h3>
+              <ul class="list-unstyled">
+                  <li>ReactJS</li>
+                  <li>Gatsby</li>
+                  <li>NextJS</li>
+                  <li>NodeJS</li>
+              </ul>
+          </div>
+          <div class="footer-column3">
+              <h3>Our Services</h3>
+              <ul class="list-unstyled">
+                  <li>Social Media Marketing</li>
+                  <li>Web & Mobile App Development</li>
+                  <li>Data & Analytics</li>
+              </ul>
+          </div>
+      </div>
+  </div>
+  <div class="footer-bottom">
+      <hr>
+      <p>Privacy Policy | Terms and Conditions</p>
+      <div class="footer-space"></div>
+  </div>
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+  function toggleAccordion(index) {
+      const faqItems = document.querySelectorAll('.faq-item');
+      faqItems.forEach((item, idx) => {
+          const answer = item.querySelector('.faq-answer');
+          const question = item.querySelector('.faq-question');
+          const plusMinus = item.querySelector('.plus');
+          if (idx === index) {
+              answer.classList.toggle('active');
+              question.classList.toggle('active');
+              plusMinus.textContent = plusMinus.textContent === '+' ? '-' : '+';
+          } else {
+              answer.classList.remove('active');
+              question.classList.remove('active');
+              plusMinus.textContent = '+';
+          }
+      });
+  }
+</script>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

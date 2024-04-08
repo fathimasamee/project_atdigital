@@ -1,0 +1,86 @@
+.footer {
+    background-color: #6B3CC9;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: relative; /* Changed to relative positioning */
+    bottom: 0; /* Pushes the footer to the bottom */
+    top: 900px;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Added flex-wrap for responsiveness */
+}
+
+
+.footer-columns {
+    display: flex;
+    flex-wrap: wrap; /* Added flex-wrap for responsiveness */
+}
+
+.footer-column1,
+.footer-column2,
+.footer-column3 {
+    flex-basis: calc(33.33% - 50px);
+    margin: 0 25px;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.list-unstyled li {
+    margin-bottom: 5px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer-bottom hr {
+    width: 100%;
+    border-color: #fff;
+    border-width: 1px;
+    margin: 0 auto;
+}
+
+.footer-bottom p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.footer-logo {
+    max-width: 150px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.footer-space {
+    height: 20px; /* Adjust the height as needed for the desired spacing */
+}
+
+@media only screen and (max-width: 768px) {
+    .footer-columns {
+        flex-direction: column;
+    }
+
+    .footer-column1,
+    .footer-column2,
+    .footer-column3 {
+        margin: 0; /* Remove the left and right margins */
+        text-align: center; /* Center align the content */
+    }
+
+    .footer-column2,
+    .footer-column3 {
+        margin-top: 20px; /* Add spacing between columns */
+    }
+
+    .footer-bottom hr {
+        width: 100%; /* Make the horizontal line span the width */
+    }
+}

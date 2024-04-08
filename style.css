@@ -1,0 +1,239 @@
+
+.navbar {
+  background-color: #6B3CC9;
+}
+
+/*for logo image */
+.navbar-brand .logo-img {
+  width: 238.89px;
+  height: 36.11px;
+  top: -11.11px;
+}
+
+/* for menu */
+.navbar-nav .nav-item {
+  margin-right: 20px;
+}
+
+.navbar-nav .nav-link {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #FFFFFF !important; 
+  text-transform: uppercase;
+}
+
+.navbar-nav .nav-link:hover {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+/* for hero section */
+.hero-section {
+  position: relative; 
+  width: 100%; 
+  height: auto; 
+}
+
+
+.hero-image img {
+  width: 100%; 
+  height: auto; 
+}
+
+/* Adjustments for frame497 */
+.frame497 {
+  position: absolute; 
+  width: 630px; 
+  height: 306px; 
+  top: 354px; 
+  left: 80px; 
+  padding: 24px 40px 32px 40px; 
+  gap: 20px; 
+  opacity: 1; 
+  background: linear-gradient(256.73deg, #1CBDDD 27.86%, #4DCA79 100%); 
+  color: #FFFFFF; 
+  font-family: "Inter", sans-serif; 
+  font-size: 48px; 
+  font-weight: 700;
+  line-height: 48px; 
+  letter-spacing: -0.02em; 
+  text-align: left; 
+  border: 2px solid #1CBDDD; 
+}
+
+/* Button layout inside frame497 */
+.frame497-button {
+  width: 214px; 
+  height: 38px; 
+  padding: 12px 20px 12px 20px; 
+  gap: 8px; 
+  border-radius: 4px; 
+  opacity: 1; 
+  background: #F28D35; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  border: none; 
+}
+
+/* Button content inside frame497 */
+.frame497-button-content {
+  font-family: "Inter", sans-serif; 
+  font-size: 14px; 
+  font-weight: 700; 
+  line-height: 14px; 
+  letter-spacing: -0.02em; 
+  text-align: left; 
+  color: #FFFFFF; 
+  
+}
+
+/* Adjustments for frame498 */
+.frame498 {
+  display: flex; 
+  align-items: center; 
+  width: auto; 
+  max-width: 1064px; 
+  height: auto; 
+  position: absolute; 
+  top: 857px; 
+  left: 188px;
+  gap: 108px; 
+  opacity: 1; 
+}
+
+/* Frame92 inside frame498 */
+.frame92 {
+  width: 542px; 
+  height: 187px; 
+  gap: 20px; 
+  opacity: 1; 
+  position: relative; 
+  top: -20px; 
+}
+
+/* Frame74 layout */
+.frame74 {
+  width: 507px; /* Set width */
+  height: 33px; /* Set height */
+  gap: 12px; /* Set gap */
+  opacity: 1; /* Changed opacity to 1 */
+  position: relative; /* Add position relative */
+  top: -20px; /* Adjust the value as needed */
+}
+
+/* Content of Frame74 */
+.frame74-content {
+  font-family: "Poppins", sans-serif; /* Set font family */
+  font-size: 27px; /* Set font size */
+  font-weight: 600; /* Set font weight */
+  line-height: 33px; /* Set line height */
+  letter-spacing: 0.4000000059604645px; /* Set letter spacing */
+  text-align: left; /* Set text alignment */
+  width: 507px; /* Set width */
+  height: 33px; /* Set height */
+  gap: 0px; /* Set gap */
+  opacity: 1; /* Changed opacity to 1 */
+  color: #6B3CC9;
+}
+
+
+/* Button in Frame92 */
+.frame92-button {
+  width: 129px; /* Set width */
+  height: 38px; /* Set height */
+  padding: 12px 20px; /* Set padding */
+  gap: 8px; /* Set gap */
+  border-radius: 4px; /* Set border radius */
+  opacity: 1; /* Set opacity */
+  background: #F28D35; /* Set background color */
+  border: none; /* Remove border */
+}
+
+/* Content of Button in Frame92 */
+.frame92-button-content {
+  font-family: "Inter", sans-serif; /* Set font family */
+  font-size: 14px; /* Set font size */
+  font-weight: 700; /* Set font weight */
+  line-height: 14px; /* Set line height */
+  letter-spacing: -0.02em; /* Set letter spacing */
+  text-align: left; /* Set text alignment */
+  color: #FFFFFF; /* Set content text color */
+}
+
+/* Image2 inside frame498 */
+.image2 {
+  width: 414px; /* Fixed width */
+  height: 414px; /* Fixed height */
+  gap: 0px; /* Gap */
+  opacity: 1; /* Changed opacity to 1 */
+  position: relative; /* Add position relative */
+  top: -20px; /* Adjust the value as needed */
+}
+
+/* Adjustments for frame499 */
+.frame499 {
+  display: flex; /* Use flexbox */
+  align-items: center; /* Center align items vertically */
+  justify-content: center; /* Center align items horizontally */
+  width: auto; /* Automatically adjust width based on content */
+  max-width: 1064px; /* Maximum width */
+  height: auto; /* Automatically adjust height based on content */
+  position: absolute; /* Position the frame */
+  top: 1100px; /* Adjust top position */
+  left: 188px; /* Adjust left position */
+  gap: 108px; /* Gap between child elements */
+  opacity: 1; /* Set opacity to 1 */
+  margin: 40px;
+
+  padding: 20px; /* Add padding */
+}
+
+/* Frame6109 inside hero image */
+.frame6109 {
+  position: relative; /* Add position relative */
+  width: 375px; /* Fixed width */
+  height: 812px; /* Fixed height */
+  top: -201px; /* Adjust top position */
+  left: 5280px; /* Adjust left position */
+  padding: 16px 20px; 
+  gap: 0px; /* Gap */
+  opacity: 0; 
+  background: #FFFFFF; /* Background color */
+}
+
+/* Frame6108 inside frame6109 */
+.frame6108 {
+  width: 335px; /* Fixed width */
+  height: 268px; /* Fixed height */
+  gap: 36px; /* Gap */
+  opacity: 0; /* Set opacity */
+}
+
+/* Navlink within frame6108 */
+.navlink {
+  width: 335px; 
+
+
+ height: 17px; 
+  gap: 0px; 
+  opacity: 1; 
+  /* StyleName: Body 1; */
+  font-family: Inter; 
+  font-size: 14px; 
+  font-weight: 500; 
+  line-height: 16.94px; 
+  text-align: left;
+  background: #100C08; 
+}
+
+/* Adjustments for navlink text */
+.navlink a {
+  text-transform: uppercase; 
+  color: #FFFFFF; /* Text color */
+  text-decoration: none; /* Remove underline */
+}
+
+.navlink a:hover {
+  color: rgba(255, 255, 255, 0.75); 
+}
